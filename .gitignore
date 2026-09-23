@@ -1,0 +1,29 @@
+# AWS credentials
+.aws/
+*.pem
+*.key
+credentials
+config
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Kubernetes secrets
+secret.yaml
+secrets.yaml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
